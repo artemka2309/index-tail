@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Регистрация</title>
+  <link href="styles/normolize-css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="hedcont">
+          <div class="logo">
+            <a href="index.html"> <img src="img\logo (3).png" alt="s"></a>
+          </div>
+          <nav class="nav">
+            <a href="branches.html">Филиалы</a>
+            <a href="booking.html">Бронирование</a>
+            <a href="login.html">Личный кабинет</a>
+          </nav>
+        </div>  
+    </header>
+
+      <main class="login-cont">
+          <div class="login-block">
+              <h2>Создать аккаунт</h2>
+              <form>
+                <label for="last-name">Фамилия:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <label for="first-name">Имя:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <label for="middle-name">Отчество:</label>
+                <input type="text" id="middle-name" name="middle-name" required>
+                <label for="passport">Паспортные данные (серия и номер):</label>
+                <input type="text" id="passport" name="passport" required>
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="date-of-birth">Дата рождения:</label>
+                <input type="date" id="date-of-birth" name="date-of-birth" required>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="confirm-password">Повторите пароль:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <button type="submit" formaction="profile.html">Зарегистрироваться</button>
+              </form>
+            </div>
+
+      </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-contact">
+          <p>Телефон: 8 (800) 555-35-35</p>
+        </div>
+        <div class="footer-nav">
+          <a href="#">Филиалы</a>
+          <a href="booking.html">Бронирование</a>
+          <a href="#">Личный кабинет</a>
+          <a href="history.html">История</a>
+          
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
